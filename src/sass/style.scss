@@ -1,0 +1,22 @@
+@import 'base/variables';
+$main-color: #C70101;
+
+.container{
+    position: relative;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+@import 'blocks/promo';
+@import 'blocks/header.scss';
+@import 'blocks/buttons';
+@import 'blocks/title';
+@import 'blocks/advatages';
+@import 'blocks/cosultation';
+@import 'blocks/forms';
+@import 'blocks/carousel';
+@import 'blocks/catalog';
+@import 'blocks/otziv';
+@import 'blocks/footer';
+@import 'blocks/modal';
+@import 'base/media';

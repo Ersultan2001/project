@@ -1,0 +1,52 @@
+@media (max-width:1200px){
+    .promo{
+        &__wrapper{
+            padding-right: 20px;
+        }
+        &__oficial{
+            font-size: 18px;
+        }
+    }
+}
+@media (max-width:991px){
+    .header__phone{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .advantages{
+        &__item{
+            position: relative;
+            right: 45px;
+            display: flex;
+            justify-content: space-between;
+
+            &__descr{
+                display: flex;
+                justify-content: flex-end;
+            }
+
+        
+        }
+    }
+    .carousel{
+       img{
+         width: 650px;
+         height: 500px;
+    }
+    }
+}
+
+@media (max-width:575px){
+
+.advantages{
+    display: flex;
+    justify-content: center;
+
+}
+}
+
+
+
+
+

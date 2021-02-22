@@ -1,0 +1,32 @@
+.otziv{
+    font-family: MuseoModerno;
+    margin-top: 70px;
+    margin-bottom: 50px;
+
+    &__item{
+        display: flex;
+        padding-top: 60px;
+    }
+    &__img{
+        width: 169px;
+        height: 169px;
+    }
+
+    &__text{
+        padding-left: 60px;
+        padding-bottom: 60px;
+    }
+
+    &__subtitle{
+        font-size: 18px;
+        font-weight: 700;
+        color: black;
+    }
+
+    &__mini{
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+
+
